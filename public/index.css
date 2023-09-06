@@ -1,0 +1,483 @@
+body{
+    background-image: linear-gradient(rgba(255,255,255,255),#ffffff);
+    width: 100% !important;
+}
+.status{
+background-image: linear-gradient(rgba(255,255,255,255),#ffffff);
+/* width: 100% !important; */
+/* margin-bottom: -25px; */
+/* margin: auto 115px; */
+}
+
+.status .asaanhisab{
+height: 22px;
+}
+.status .investomate{
+    height: 20px;
+    width: 19px;
+    margin-left: -13px;
+}
+.status .fw-bold{
+    font-weight: 700!important;
+    font-size: 16px;
+    text-decoration: none;
+    color: #212529;
+}
+.status-content{
+margin-top: -10px;
+}
+.hr1{
+    margin-top: -25px;
+}
+
+.status .asanhisab{
+    height: 21px;
+    margin-right: 0.2rem;
+    margin-left: 30px !important;
+}
+
+
+.navbar{
+    background-color: #ffffff;
+    background-color: rgba(255,255,255,255);    
+    /* background-color: yellow; */
+    margin-top: -5px;
+    height: 50px;
+    margin-bottom: 0px;
+
+    padding-right: 50px !important;
+    /* width: 100%; */
+}
+
+.hr2{
+margin-bottom: 0px;
+}
+
+.navbar .logo{
+    height: 5rem !important;
+    width: 14rem;
+    object-fit: contain;
+    /* margin-left: 10px; */
+}
+
+.navbar .usa-flag{
+height: 17px;
+width: 17px;
+border-radius: 50px;
+}
+.navbar-collapse {
+    z-index: 1000; /* Set a higher value than the header's z-index */
+}
+.navbar .usa{
+    background: linear-gradient(to right, #ba9196, rgba(227,198,202,255));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.navbar .nav-link{
+color: rgba(0,0,0,.55);
+font-weight: 700 !important;
+font-size: 12px;
+}
+
+
+.navbar .sign-up{
+    border-image: linear-gradient(180deg,#f37e5f 0,#ec1c24 59%,#cf232a 100%);
+    border-image-slice: 1;
+    border: 1px solid;
+    color: #f37e5f;
+    width: 100px !important;
+}
+.navbar .sign-up:hover{
+    background-image: linear-gradient(#cf232a,rgba(207,35,42,255));
+    border-image-slice: 1;
+    border-radius: 2px solid !important;
+    color: white;
+    width: 100px !important;
+}
+
+.navbar .signin{
+    background: linear-gradient(180deg,#f37e5f 0,#ec1c24 59%,#cf232a 100%);
+    border: 0!important;
+    color: #fff;
+    width: 120px !important;
+    margin-left: 8px;
+   }
+
+   .navbar .signin:hover{
+    background-image: linear-gradient(#cf232a,rgba(207,35,42,255));
+    color: #fff;
+   }
+
+.header{
+    background-color: #fdebee;
+height: 372px !important;
+/* width: 100% !important; */
+}
+
+
+ .header .header-title{
+    background: -webkit-linear-gradient(#f26e55,#e41e26);
+    background-clip: text;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    max-width: 48rem;
+    
+    
+}
+
+.header  .header-description{
+    font-size: 2.25rem;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-top: -1.2rem;
+    max-width: 62vw;
+    color: black !important;
+} 
+
+
+
+/* CSS classes for background color changes */
+.active-toggler {
+    background-color: white;
+  }
+  
+  .active-menu-item {
+    background-color: white;
+  }
+  
+  .welcome-btn{
+    background: -webkit-linear-gradient(#f26e55,#e41e26);
+    border: 0;
+    border-radius: 2rem;
+    box-shadow: none;
+    color: #fff;
+    font-weight: 500 !important;
+    padding: 7px  !important;
+    outline: none;
+    text-align: center;
+        
+        
+        
+  }
+  .welcome-btn:hover{
+    background: -webkit-linear-gradient(#e41e26,#e41e26);
+    color: #fff;
+  }
+
+  .header .header-text{
+    margin-top: 1rem;
+    max-width: 600px;
+  }
+
+.header .girlimage{
+    height: 21.5rem;
+     width: 20rem;
+     /* margin-left: 20px; */
+     margin-top: 13px !important;
+}
+
+
+  @media screen and (max-width:576px){
+    .navbar{
+    margin-left: 20px;
+    }
+    .al,.al2,.hr3{
+        display: none !important;
+    }
+    .logo{
+    margin-left: 0 !important;
+    margin-top: -30px;
+    }
+    
+   .header .girlimage{
+        height: 23rem;
+         width: 20rem;
+         margin-left: 0px;
+         margin-top: 20px;
+    }
+    .navbar-toggler{
+    margin-top: -20px;
+    }
+    .sign-up{
+        margin-top: 20px;
+        margin-left: -6px !important;
+}
+    .signin{
+                margin-top: 20px;
+                margin-left: -6px !important;
+    }
+    .header{
+    height: auto;
+    }
+    .header .header-title{
+        background: -webkit-linear-gradient(#f26e55,#e41e26);
+        font-size: 35px !important;
+    font-weight: 700 !important;
+    line-height: 1.4;
+    margin-bottom: 1rem;
+    
+    }
+    .header  .header-description{
+        font-size: 26px !important;
+        font-weight: 700 !important;
+        line-height: 32.5px !important;
+        margin-top: 1px !important;
+        
+        
+    }
+   .welcome-btn{
+padding: 10px !important;
+   }
+
+   .appicons{
+height: 32px !important;
+margin-bottom: 15px !important;
+   }
+
+
+   
+  }
+ 
+      
+
+  @media screen and (max-width:1590px) and (min-width:992px){
+.welcome-btn{
+margin-top: 20px !important;
+padding: 9px 10px 9px 10px !important;
+width: 40% !important;
+}
+.header{
+    height: auto !important;
+    }
+.girlimage{
+margin-bottom: -21px !important;
+
+}
+  }
+
+
+  @media screen and (max-width:768px) {
+    .header{
+        height: auto !important;
+        }
+        .header .header-title{
+            background: -webkit-linear-gradient(#f26e55,#e41e26);
+            background-clip: text;
+            font-size: 40px;
+            font-weight: 700;
+            line-height: 1.4;
+            margin-bottom: 1rem;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            max-width: 45rem;  
+        }
+        .header  .header-description{
+            font-size: 2rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-top: -1.2rem;
+            max-width: 62vw;
+            color: black !important;
+        }
+       
+        .welcome-btn{
+            background: -webkit-linear-gradient(#f26e55,#e41e26);
+            border: 0;
+            border-radius: 2rem;
+            box-shadow: none;
+            color: #fff;
+            font-weight: 500;
+            /* padding: 0.5rem 3rem; */
+            padding: 10px !important;
+            outline: none;
+            text-align: center;
+            
+                /* white-space: nowrap; */
+                width: 50% !important;
+          }
+          
+.logo{
+margin-left: 0px !important;
+}
+  }
+
+  @media screen and (max-width:992px) {
+    .app-content-image{
+        display: none !important;
+    }
+
+    .header{
+        height: auto !important;
+        }
+        .appicons{
+            height: 3rem !important;
+            width: 4rem !important;
+            margin-top: 10px !important;
+        }
+
+        .welcome-btn{
+            background: -webkit-linear-gradient(#f26e55,#e41e26);
+            border: 0;
+            border-radius: 2rem;
+            box-shadow: none;
+            color: #fff;
+            font-weight: 500;
+            padding: 12px 20px 15px 20px !important;
+            outline: none;
+            text-align: center;
+                white-space: nowrap !important;
+                width: 100% !important;
+                margin-top: 50px !important;
+          }
+
+          .logo{
+        margin-top: -25px !important;
+          }
+          .navbar-toggler{
+            margin-top: -15px;
+          }
+          .girlimage{
+            display: none !important;
+          }
+          
+  }
+
+ @media screen and(min-width:200px) and (max-width:400) {
+    .welcome-btn{
+    width: 100% !important;
+    }
+ }
+.al{
+    background-image: linear-gradient(rgba(255,255,255,255),#ffffff);
+display: none;
+height: 80px;
+position: relative;
+}
+#hh:hover{
+background-color: blue;
+}
+
+.fa-brands{
+font-size: 50px;
+border: solid 1px;
+}
+
+.playimage{
+    height: 3rem;
+    width: 3rem;
+    margin-right: 40px !important;
+}
+
+.blogimage{
+    height: 3rem;
+    width: 3rem;
+    margin-left: 30px;
+}
+
+.al2{
+    background-image: linear-gradient(rgba(255,255,255,255),#ffffff);
+    display: none;
+    height: 64px !important;
+    padding-top: 0px !important;
+    
+}
+
+
+/* .dropdown-menu {
+    
+    margin-left: -500px !important;
+    margin-top: 10px !important;
+    text-align: center;
+}
+
+.dropdown:hover .dropdown-menu{
+    display:block !important;
+    }
+
+
+.dropdown-toggle::after {
+    display: none;
+} */
+
+.star{
+    height: 5rem;
+    object-fit: contain;
+    width: 5rem
+}
+
+.content-card-title{
+color: black;
+margin-top: -10px;
+}
+.content-card-text{
+line-height: 16px;
+color: black;
+font-size: 16px;
+margin-top: -4px;
+
+}
+.app-title{
+    font-size: 40px;
+    font-weight: 700;
+}
+.content-card{
+    box-sizing: border-box;
+}
+
+.appicons{
+    height: 4rem;
+    object-fit: contain;
+    width: 8rem;
+}
+
+.app-content{
+    background-color: #fdebee;
+    height: 460px;
+    
+}
+
+.app-content-image{
+    height: 26rem;
+    object-fit: contain;
+    width: 24rem;
+}
+.mobile-text{
+ color: black;
+ font-size: 2.25rem;
+ font-weight: 700;
+ line-height: 1.2;
+ height: 460px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ text-align: center;
+ flex-direction: column;
+}
+.googleplay{
+    height: 56px;
+    object-fit: contain !important;
+    width: 162px;
+}
+.appstore{
+    height: 56px;
+    object-fit: contain !important;
+    width: 162px;
+    margin-left: 6px;
+}
+
+.mobile-description{
+    font-size: 24px;
+    margin: 1rem 0 2rem;
+    font-weight: 400;
+}
+.one{
+    color: #e0254a;
+    font-weight: 700;
+    font-size: 26px;
+}
